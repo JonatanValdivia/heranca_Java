@@ -1,0 +1,12 @@
+package heranca.teste;
+
+import heranca.model.Pessoa;
+
+public class TestePessoa {
+
+	public static void main(String[] args) {
+		Pessoa pessoa1 = new Pessoa();
+
+	}
+
+}

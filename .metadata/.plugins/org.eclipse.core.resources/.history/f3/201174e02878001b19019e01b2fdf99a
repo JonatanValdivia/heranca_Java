@@ -1,0 +1,21 @@
+package heranca.model;
+
+import java.time.LocalDate;
+
+public class Funcionario extends Pessoa{
+	private double salario;
+	private LocalDate dataAdmicao;
+	public double getSalario() {
+		return salario;
+	}
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	public LocalDate getDataAdmicao() {
+		return dataAdmicao;
+	}
+	public void setDataAdmicao(LocalDate dataAdmicao) {
+		this.dataAdmicao = dataAdmicao;
+	}
+	
+}
